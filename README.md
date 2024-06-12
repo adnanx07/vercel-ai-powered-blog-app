@@ -13,6 +13,10 @@ AI SDK Blog App is a blog application built with Next.js 14 and powered by [Verc
 
 ## Quick Start Guide
 
+**Project structure**
+
+![image](https://github.com/adnanx07/vercel-ai-powered-blog-app/assets/158998144/c3118d8c-0e4b-4ddc-8674-deeb8f853fd3)
+
 ### Home Page for Blog Posts
 ![Home Page Overview](https://github.com/adnanx07/vercel-ai-powered-blog-app/assets/158998144/eeeac2f2-b6ed-4e57-839e-cdf70edda4dd)
 
