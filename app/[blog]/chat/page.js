@@ -69,7 +69,7 @@ const Chat = ({ params }) => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
+    <div className="min-h-80 bg-gray-100 flex flex-col items-center justify-center p-4">
       <div className="w-full max-w-2xl bg-white shadow-lg rounded-lg p-4">
         <div className="h-96 overflow-y-auto mb-4 p-2 border rounded">
           {chatHistory.map((message, index) => (
