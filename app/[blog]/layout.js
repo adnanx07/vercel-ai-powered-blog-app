@@ -40,7 +40,7 @@ const BlogLayout = ({ children }) => {
   }, []);
 
   return (
-    <div>
+    <div className="w-full">
       <Link href="/" className="flex gap-1 text-underline text-blue-400">
         <Home size={22} /> Home{" "}
         <span className="flex cursor-auto text-slate-400">

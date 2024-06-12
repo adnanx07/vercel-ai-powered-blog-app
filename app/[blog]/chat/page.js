@@ -5,13 +5,14 @@ import { streamText } from "ai";
 import { marked } from "marked";
 import { createGoogleGenerativeAI } from "@ai-sdk/google";
 import useFetchRemoteData from "@/hooks/useFetchRemoteData";
+import { ENV_CONFIG } from "@/constants";
 
 const Chat = ({ params }) => {
   const { blog: blogId } = params;
   const { getBlogById } = useFetchRemoteData();
 
   const google = createGoogleGenerativeAI({
-    apiKey: process.env.NEXT_PUBLIC_GOOGLE_GENERATIVE_AI_API_KEY,
+    apiKey: ENV_CONFIG.APP.GOOGLE_GENERATIVE_API_KEY,
   });
 
   const chatContainerRef = useRef(null);

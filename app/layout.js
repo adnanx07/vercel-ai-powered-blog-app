@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import 'react-loading-skeleton/dist/skeleton.css'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +12,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* <body className={inter.className}> */}
       <body className="flex min-h-screen flex-col items-center justify-between p-24">
         {children}
         </body>
